@@ -39,7 +39,7 @@ class Modele
     private $gamme;
 
     /**
-     * @ORM\OneToOne(targetEntity=procede::class, inversedBy="procede_id", cascade={"persist", "remove"})
+     * @ORM\OneToOne(targetEntity=Procede::class, inversedBy="procede_id", cascade={"persist", "remove"})
      * @ORM\JoinColumn(nullable=false)
      */
     private $id_procede;
